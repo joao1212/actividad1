@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+h1,
+h2{
+    text-align: center;
+    font-family: 'krona one', 'sans-serif';
+}
+.contenedor{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.section-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.character{
+    width: 25%;
+    margin: 3%;
+    border: 6px gray solid;
+    text-align: center;
+    border-radius: 5px;
+}
+.character img{
+    width: 80%;
+    border-radius: 4%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 80%;
+    text-align: center;
+}
+footer{
+    padding: 2%;
+
+}
+.info-character{
+
+    text-align:justify;
+    padding: 3%; 
+} 
+h2{
+   margin-bottom: 2%;
+   margin-top: 2%;
+}
+
+/* Incia el CSS del formulario */
+
+form{
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: left;
+    width: 80;
+}
+.elemnt-form{
+    
+    width: 100%;
+    margin-bottom: 2%;
+}
+.label{
+    width: 20%;
+    float: left; /* coloca los titulos del formulario al lado izquierdo*/
+}
+.elemnt-form select,
+    input,
+    textarea{
+        width: 50%;
+        height: 30px;
+    }
+.boton-div{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20%;
+}
+.boton-div button{
+    background-color:  blue;
+    border: 6% blue;
+    border-radius: 20px;
+    height: 30%;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
